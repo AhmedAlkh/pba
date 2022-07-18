@@ -1,0 +1,13 @@
+body {
+    background-color: #FFFCEB;
+}
+
+.navbar-custom {
+    background-color: #F3B9BF;
+}
+
+.navbar-brand {
+    color: #433937;
+    font-family: Montserrat;
+    /* padding-left: 45%; */
+}
