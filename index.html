@@ -23,7 +23,7 @@
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=PT+Sans+Narrow&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;400;900&family=PT+Sans+Narrow&family=Raleway:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar -->
@@ -53,10 +53,69 @@
           </ul>
        </div>
     </nav>
+
+    <!-- Carousel -->
+
+  <section id="photos-slider">
+ 
+    <div id="photos-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="slider-text">Iced coffee anyone?</h2>
+          <img class="slider-image" src="/images/drink.jpg" alt="ice coffee"> <!-- after photo is in images folder, link it to src here and add alt text -->
+          <em>Photos By Alaa</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="slider-text">Fruits of your labour.</h2>
+          <img class="slider-image" src="/images/fruit.jpg" alt="assorted fruits">
+          <em>Photos By Alaa</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="slider-text">Lookin' sharp!</h2>
+          <img class="slider-image" src="/images/spikes.jpg" alt="spikes on a plant">
+          <em>Photos By Alaa</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#photos-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <button class="carousel-control-next" type="button" data-bs-target="#photos-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+<hr>
+
+  <!-- Content section -->
+
+  <section id="content-section">
+    <div class="row">
+
+      <!-- Content section 1 -->
+      <div class="content-one-text col-6 content-text-div">
+        <p class="content-text">Stand out...</p>
+      </div>
+      <div class="content-one-pic col-6">
+        <img class="content-img" src="/images/flower.jpg" alt="flower in snow">
+      </div>
+      <!-- Content section 2 -->
+      <div class="content-two-text col-6">
+        <img class="content-img" src="/images/tea.jpg" alt="cup of tea">
+      </div>
+      <div class="content-two-pic col-6 content-text-div">
+        <p class="content-text">Breath in...</p>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Footer  -->
     
       <footer id="footer">
-        <i class="footer-icon fa-brands fa-instagram"></i>
-        <i class="footer-icon fa-solid fa-envelope"></i>
+        <i class="footer-icon fa-brands fa-2x fa-instagram"></i>
+        <i class="footer-icon fa-solid fa-2x fa-envelope"></i>
         <p>Copyright © Photos By Alaa</p>
       </footer>
   

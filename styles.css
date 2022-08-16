@@ -1,12 +1,26 @@
 body {
-    background-color: #FFFCEB;
+    /* background-color: #FFFCEB; */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,190,148,1) 100%);
 }
+
+/* Hard rule border line inbetween sections */
+hr {
+    width: 6%;
+    border: 5px dotted;
+    border-style: dotted none none;
+    border-color: #6c04a1;
+    margin: 100px auto;
+    padding: 0%;
+  }
 
 /* Navbar */
 
 .navbar-custom {
-    background-color: #F3B9BF;
+    /* background-color: #F3B9BF; */
     padding-bottom: 4.5rem;
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,190,148,1) 100%); */
 }
 
 .navbar-brand {
@@ -15,15 +29,74 @@ body {
     /* padding-left: 45%; */
 }
 
+/* Carousel */
 
+#photos-slider {
+    padding: 7% 15%;
+    text-align: center;
+    /* background-color: #CDBFD9; */
+    /* This is another colour scheme option */
+    /* background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,185,233,1) 100%); */
+    color: #fff;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.slider-text {
+    font-family: 'Dancing Script', cursive;
+}
+
+.slider-image {
+    width: 25rem;
+    height: 31.25rem;
+    margin: 20px;
+    border-radius: 10%;
+    -webkit-filter: drop-shadow(5px 5px 5px grey);
+    filter: drop-shadow(5px 5px 5px grey);
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#content-section {
+    padding-top: 5%;
+    text-align: center;
+}
+
+/* Content section */
+
+.content-img {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 10%;
+    -webkit-filter: drop-shadow(5px 5px 5px grey);
+    filter: drop-shadow(5px 5px 5px grey);
+}
+
+.content-text {
+    padding: 0;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.content-text-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Footer */
   
   #footer {
     color: #433937;
     text-align: center;
-    background-color: #F3B9BF;
-    position: absolute;
+    /* background-color: #F3B9BF; */
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,190,148,1) 100%); */
+    position: relative;
     bottom: 0;
     width: 100%;
     /* height: 2.5rem;            Footer height */
